@@ -63,20 +63,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 90vw;
     height: 100%;
 
 }
 
 .logo{
-    width: 18rem;
+    width: 16rem;
     height: 100%;
     /* background: burlywood; */
 }
 .img-logo{
     width: 5rem;
     height: 5rem;
-    background-image: url(logo.png);
+    background-image: url(../img/logo.png);
     background-position: center;
 
 }
@@ -136,7 +136,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(universe.jpg);
+    background-image: url(../img/universe.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -155,6 +155,7 @@
 .ban-container h1{
     font-weight: 400;
     color: #fff;
+    text-align: end;
     text-shadow: 2px 3px 3px rgba(0,0,0,.85);
 }
 .ban-container h2{
@@ -208,6 +209,7 @@
 .inf-cont-text h1{
     font-size: 1.3em;
     width: 16rem;
+    font-weight: 500;
 }
 .inf-cont-text p{
     width: 16rem;
